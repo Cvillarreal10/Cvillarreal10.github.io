@@ -16,6 +16,7 @@ nav {
     margin-bottom: 20px;
    display: flex;
     padding: 10px;
+    border-radius: 20px;
 }
 h1 {
     display: flex;
@@ -47,6 +48,8 @@ main {
 }
 .sidebar-img {
     width: 200px;
+    border: 5px solid rgb(227, 74, 111);
+
 }
 .content {
     flex: 1;
