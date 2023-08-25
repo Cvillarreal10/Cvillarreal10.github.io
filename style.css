@@ -64,6 +64,11 @@ main {
 h2, h3 {
     margin: 0px;
 }
+#all-contents{
+max-width: 800px;
+margin: auto;
+}
+
          /* portfolio styles */
          .content h1 {
             color: black;
