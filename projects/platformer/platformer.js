@@ -45,7 +45,7 @@ $(function () {
     // example usage: createPlatform(x,y,width,height)
 
     createPlatform(200,400,100,9);
-    createPlatform(800,750,100,9);
+    createPlatform(600,550,100,9);
     
     // TODO 2
     // Create collectables
