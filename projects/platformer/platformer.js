@@ -80,6 +80,7 @@ $(function () {
     createCannon('top',450,1500,35,35);
     createCannon('right',350,1000,25,15);
     createCannon('right',700,2000,25,15);
+    createCannon('top',1180,1500,25,15);
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
