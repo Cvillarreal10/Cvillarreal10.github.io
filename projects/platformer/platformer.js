@@ -48,14 +48,15 @@ $(function () {
     createPlatform(500,598,100,9);
     createPlatform(135,598,100,9);
     createPlatform(325,590,50,9);
-    createPlatform(460,460,130,9);
+    createPlatform(380,460,130,9);
     createPlatform(780,460,10,9);
     createPlatform(890,598,75,9);
     createPlatform(1180,590,75,9);
     createPlatform(1290,450,50,9);
     createPlatform(130,100,15,500);
     createPlatform(590,345,100,9);
-    createPlatform(670,100,50,9);
+    createPlatform(870,300,50,9);
+    createPlatform(1045,470,50,9);
 
 
 
@@ -67,17 +68,18 @@ $(function () {
 
     createCollectable("database",775,425,0,0);
     createCollectable("diamond",1283,405,0,0);
-    createCollectable('steve',125,580,0,0);
-
+    createCollectable('steve',145,565,0,0);
+    createCollectable('max',475,375,0,0);
+    createCollectable('kennedi',145,415,0,0);
     // TODO 3
     // Create cannons
     // You must decide the wall you want the cannon on, the position on the wall, and the time between shots in milliseconds
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-    createCannon('top',250,100000000,50,50)
-    createCannon('right',400,1000,25,15)
-
+    createCannon('top',450,1500,35,35);
+    createCannon('right',350,1000,25,15);
+    createCannon('right',700,2000,25,15);
 
     /////////////////////////////////////////////////
     //////////ONLY CHANGE ABOVE THIS POINT///////////
