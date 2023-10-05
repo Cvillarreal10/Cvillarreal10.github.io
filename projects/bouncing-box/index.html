@@ -6,16 +6,16 @@
 	<script src="jquery.min.js"></script>
 	<style>
 		.box {
-			width: 200px;
-			height: 300px;
+			width: 70px;
+			height: 70px;
 			background-color: teal;
 			font-size: 300%;
 			text-align: center;
 			user-select: none;
 			display: block;
 			position: absolute;
-			top: 400px;
-			left: 0px;  /* <--- Change me! */
+			top: 100px;
+			left: 400px;  /* <--- Change me! */
 		}
 		.board{
 			height: 100vh;
@@ -63,7 +63,7 @@
 			
 			// TODO 2 - Variable declarations 
 			
-
+var positionX = 0;
 			
 			/* 
 			This Function will be called 20 times/second. Each time it is called,
@@ -71,10 +71,10 @@
 			turn it around! 
 			*/
 			function update() {
-				
-				moveBoxTo(boardWidth);
-
-			};
+				/* Want PositionX to increase by 10 */
+				positionX= positionX +10
+				moveBoxTo(positionX);
+				};
 
 			/* 
 			This Function will be called each time the box is clicked. Each time it is called,
@@ -82,7 +82,7 @@
 			the left side of the screen.
 			*/
 			function handleBoxClick() {
-				
+				positionX= 0;
 
 
 			};
