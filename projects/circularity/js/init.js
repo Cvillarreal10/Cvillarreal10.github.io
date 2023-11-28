@@ -33,6 +33,10 @@ circles.push(circle);
 
         // TODO 3 / 7 : Call the drawCircle() function 
         drawCircle();
+        drawCircle();
+        drawCircle();
+        drawCircle();
+        drawCircle();
 
         ////////////////////////////////////////////////////////////
         ///////////////// PROGRAM LOGIC ////////////////////////////
@@ -45,7 +49,7 @@ circles.push(circle);
         */
         function update() {
             // TODO 4 : Update the circle's position //
-
+            
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            
