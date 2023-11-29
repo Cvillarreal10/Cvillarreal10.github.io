@@ -33,7 +33,10 @@ var init = function (window) {
 
         // TODO 3 / 7 : Call the drawCircle() function 
         drawcircle();
-
+        drawcircle();
+        drawcircle();
+        drawcircle();
+        drawcircle();
         
 
         ////////////////////////////////////////////////////////////
