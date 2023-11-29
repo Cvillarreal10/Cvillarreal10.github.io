@@ -56,7 +56,7 @@ circles.push(circle);
             physikz.updatePosition(circles[4]);
               
                
-              }
+              
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
            game.checkCirclePosition(circles[0]);
@@ -102,7 +102,7 @@ circles.push(circle);
         
         app.addUpdateable(window.opspark.game);
     }
-;
+};
 
 // DON'T REMOVE THIS CODE //////////////////////////////////////////////////////
 if((typeof process !== 'undefined') &&
