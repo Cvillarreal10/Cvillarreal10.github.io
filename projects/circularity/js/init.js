@@ -59,7 +59,7 @@ circles.push(circle);
               }
             
             // TODO 5 / 10 : Call game.checkCirclePosition() on your circles.
-           
+           game.checkCirclePosition();
 
             // TODO 9 : Iterate over the array
            
